@@ -1,5 +1,12 @@
 body{margin:0%; font-family: calibri;}
 header{width:100%; background-color: brown; box-shadow:0px 3px 10px black; padding-top:20px;}
 h1{width:70%; display: inline-block; color:white; font-size:25px; padding-left:5%; box-sizing: border-box; position: relative; top:-20px;}
-#Usuario{width:20%; border-radius:100px; display: inline-block;}
+#ContenedorUsuario{display: inline-block; width:20%;}
+#Usuario{width:100%; border-radius:100px; display: inline-block;}
 #ConfiguraciónUsuario{color:white; position:absolute; top:72px; left:72%;}
+
+#Menú{width:100%; background-color: white; position:fixed; top:0px; padding-top:10px; display:none; box-shadow:0px 3px 10px black;}
+a{text-decoration:none;}
+#IconoCerrar{ font-size:35px; color:brown; margin-left:90%; margin-bottom:10px;}
+.OpcionesMenú{margin-left:30%; font-size:20px; color:brown; font-weight:900;}
+#IconoUsuario, #IconoCompras, #IconoSesión {font-size:30px; color:brown; margin-right:7%; margin-bottom:30px;}
