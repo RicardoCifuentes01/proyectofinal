@@ -14,9 +14,12 @@ a{text-decoration:none;}
 
 
 #Ventas{width:100%; margin-top:30px;}
-.VentaDeLibro{width:90%;}
+.VentaDeLibro{width:90%; display: block; margin-top:25px; border:2px solid rgb(202, 202, 202); margin-left:5%; padding-top:15px; padding-bottom:15px;}
 .Libros{width:60%; margin-left:20%; box-shadow:0.7px 0.7px 15px black}
 h2{color:black;}
-h3{background-color: brown; color:white; width:50%; padding:1%; border-radius:5px;}
+h3{background-color: brown; color:white; width:50%; padding:1%; border-radius:5px; display: inline-block; text-align: center; font-size: 17px;}
 .Precio{font-size:20px; color:brown; font-weight:900;}
-h2,h3, .Precio {margin-left:5%;}
+.Genero{font-size: 17px; background-color:goldenrod; color:white; padding:1%; border-radius: 5px; display: inline-block; font-weight: 900; margin-bottom:0px; text-align: center;}
+h2,h3, .Precio {margin-left:5%;  margin-bottom:0px;}
+#MásLibros{color:brown; text-align: center; font-size:25px; font-weight: 900; padding-bottom:25px;}
+#IconoMásLIbros{display: block;}
